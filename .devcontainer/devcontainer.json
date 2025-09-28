@@ -1,0 +1,9 @@
+{
+  "name": "BSD-Absolute",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "bash /workspace/.devcontainer/post_create.sh",
+  "remoteUser": "vscode"
+}
